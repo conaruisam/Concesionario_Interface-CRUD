@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Concesionario.App">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="5" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="20">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="-18" y="-3" width="1322" height="624"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <font name="Droid Sans Mono"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="empty"/>
+    <children>
+      <component id="5ceb7" class="javax.swing.JButton" binding="buttonConsulta">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="225" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Consulta"/>
+        </properties>
+      </component>
+      <component id="99e20" class="javax.swing.JButton" binding="buttonAlta">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="225" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <borderPainted value="true"/>
+          <text value="Alta"/>
+        </properties>
+      </component>
+      <component id="8e41" class="javax.swing.JButton" binding="botonSalir">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+      <component id="cc967" class="javax.swing.JButton" binding="buttonBaja">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="3" vsize-policy="7" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="225" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Baja"/>
+        </properties>
+      </component>
+      <component id="10ea0" class="javax.swing.JButton" binding="buttonModificacion">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="225" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <enabled value="true"/>
+          <hideActionText value="false"/>
+          <text value="Modificación"/>
+        </properties>
+      </component>
+      <scrollpane id="98024" binding="jps">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="12" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="210" height="100"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <component id="59c86" class="javax.swing.JLabel" binding="JLMatricula">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Matricula"/>
+        </properties>
+      </component>
+      <component id="38c47" class="javax.swing.JTextField" binding="JTextMatricula">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="62a65" class="javax.swing.JLabel" binding="JLMarca">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Marca"/>
+        </properties>
+      </component>
+      <component id="e2609" class="javax.swing.JTextField" binding="JTMarca">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b9420" class="javax.swing.JLabel" binding="JLModelo">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Modelo"/>
+        </properties>
+      </component>
+      <component id="ce23b" class="javax.swing.JTextField" binding="JTModelo">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ed460" class="javax.swing.JLabel" binding="JLExtras">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Extras"/>
+        </properties>
+      </component>
+      <component id="51fba" class="javax.swing.JTextField" binding="JTExtras">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ad3a1" class="javax.swing.JButton" binding="actualizarTablaButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="225" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Actualizar tabla"/>
+        </properties>
+      </component>
+      <component id="b20fb" class="javax.swing.JTextField" binding="JTPrecio">
+        <constraints>
+          <grid row="1" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1a2" class="javax.swing.JLabel" binding="JLPrecio">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Precio"/>
+        </properties>
+      </component>
+      <component id="e320d" class="javax.swing.JLabel" binding="Concesionario">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="12" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <font name="Droid Sans Mono" size="22" style="1"/>
+          <text value="CONCESIONARIO"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
